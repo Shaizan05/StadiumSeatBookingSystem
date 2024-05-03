@@ -1,0 +1,87 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 23-Feb-2024, 11:43:02 am
+    Author     : pavan
+*/
+
+
+
+.containers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.payments-forms {
+    width: 400px;
+}
+
+.cards {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.cards-headers {
+    background-color: #2c7be5;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.cards-bodys {
+    padding: 30px;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #d1d6e0;
+    border-radius: 5px;
+}
+
+.flexs-containers {
+    display: flex;
+}
+
+.flexs-items {
+    flex: 1;
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #2c7be5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1e4fa9;
+}
+
+h3{
+    text-align: center;
+    margin: 5px 0;
+}
+

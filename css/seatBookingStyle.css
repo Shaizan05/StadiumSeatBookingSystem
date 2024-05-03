@@ -1,0 +1,87 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 17-Feb-2024, 11:04:50 pm
+    Author     : pavan
+*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-image: url("../img/jonathan-petersson-ARU18GpF6QQ-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+}
+
+#wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+}
+
+#co{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px;
+    background-color: #f5f4f0;
+    margin: 0;
+    box-shadow: 2px 5px 5px 3px #363531;
+    border-radius: 3px;
+    color: black;
+    
+}
+
+hr{
+    width: 100%;
+    background: white;
+}
+
+.formDiv{
+    width: 100%;
+    height: auto;
+    background-color: #fffef7;
+    margin: 3px 0;
+    display: flex;
+    padding: 15px 50px;
+    justify-content: space-around;
+    border-radius: 3px;
+}
+
+#nameTitle{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    
+}
+
+#inputsDiv{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inpF{
+    border-style: none;
+    background-color: #f0fdff;
+    padding: 5px 10px;
+    margin: 3px 0;
+}
+
+
